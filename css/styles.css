@@ -29,7 +29,7 @@ body {
   list-style: none;
 }
 .logo {
-  color: var(--title-text-color);
+  color: var(--accent-text-color);
 
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -42,7 +42,7 @@ body {
 }
 
 .half-logo {
-  color: var(--accent-text-color);
+  color: var(--title-text-color);
 }
 
 .link {
@@ -66,6 +66,7 @@ body {
 .hero {
   background-color: var(--title-text-color);
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .hero-title {
@@ -92,7 +93,7 @@ body {
 
 .hero-button:hover,
 .hero-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 /* Features */
@@ -102,6 +103,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .work-title,
@@ -114,8 +116,7 @@ body {
   text-align: center;
   text-transform: capitalize;
 }
-/* our team
- */
+/* our team */
 .team {
   background-color: #f4f4fd;
 
@@ -123,9 +124,10 @@ body {
 }
 
 .team-title {
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.1;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .team-li {
@@ -171,4 +173,8 @@ body {
   line-height: 1.2;
   font-weight: 500;
   letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+  color: var(--primary-text-color);
 }
