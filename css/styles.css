@@ -146,8 +146,8 @@ body {
 
 /* portfolio */
 .button {
-    cursor: pointer;
-    
+  cursor: pointer;
+
   color: var(--accent-text-color);
   background-color: #f4f4fd;
 
@@ -162,9 +162,9 @@ body {
 
 .button:hover,
 .button:focus {
-    color: #ffffff;
-    background-color: #404bbf;
-
+  color: #ffffff;
+  background-color: #404bbf;
+}
 .portfolio-title {
   color: var(--title-text-color);
   font-size: 20px;
