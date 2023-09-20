@@ -1,0 +1,132 @@
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-text-color: #4d5ae5;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Nav and logo */
+.navigation-link {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: #404bbf;
+}
+
+.logo {
+  color: var(--title-text-color);
+
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  font-weight: 800;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+
+.half-logo {
+  color: var(--accent-text-color);
+}
+
+/* Adress */
+.adress-link {
+  color: var(--primary-text-color);
+  font-style: normal;
+}
+
+.adress-link:hover,
+.adress-link:focus {
+  color: #404bbf;
+}
+
+/* Hero */
+.hero {
+  background-color: var(--title-text-color);
+  text-align: center;
+}
+
+.hero-title {
+  color: #ffffff;
+
+  font-size: 56px;
+  line-height: 1.07;
+  font-weight: 700;
+}
+
+.hero-button {
+  background-color: var(--accent-text-color);
+
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+/* Features */
+.feature-title {
+  color: var(--title-text-color);
+
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.work-title,
+.team-title {
+  color: var(--title-text-color);
+
+  font-size: 36px;
+  line-height: 1.1;
+  font-weight: 700;
+  text-align: center;
+}
+/* our team
+ */
+.team {
+  background-color: #f4f4fd;
+
+  text-align: center;
+}
+
+.team-title {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+/* footer */
+.footer {
+  background-color: var(--title-text-color);
+}
+
+.second-half-logo {
+  color: #f4f4fd;
+}
+
+/* portfolio */
+.button {
+  color: var(--accent-text-color);
+  background-color: #e7e9fc;
+
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.portfolio-title {
+  color: var(--title-text-color);
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
